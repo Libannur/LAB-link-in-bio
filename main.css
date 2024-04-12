@@ -1,0 +1,44 @@
+body {
+    box-sizing: border-box;
+    background-image: url('photos/camera.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    text-align: center;
+    width: ;
+}
+  #logo img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: bisque;
+    padding: auto;
+    margin: 15px;
+   
+}
+.liban {
+    height: 150px;
+    width: 150px;
+    margin-top: 
+    50px;
+    border-radius: 50%;
+    
+}
+social-media {
+   
+    border: none;
+   display: flex;
+   justify-content: space-between;
+   height: 90px;
+   width: 90px;
+}
+.info {
+    text-align: center;
+    color: lightgray;
+}
+
+h2 {
+    margin-top: 15px;
+}
