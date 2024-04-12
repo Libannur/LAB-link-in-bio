@@ -1,6 +1,6 @@
 body {
     box-sizing: border-box;
-    background-image: url('photos/camera.jpg');
+    background-image: url('photos/blurry.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -9,7 +9,6 @@ body {
 }
 .container {
     text-align: center;
-    width: ;
 }
   #logo img {
     height: 90px;
@@ -17,9 +16,11 @@ body {
     border-radius: 50%;
     background-color: bisque;
     padding: auto;
-    margin: 15px;
+    margin-bottom: 15px;
+    margin: 16px;
    
 }
+
 .liban {
     height: 150px;
     width: 150px;
@@ -28,19 +29,27 @@ body {
     border-radius: 50%;
     
 }
-social-media {
-   
-    border: none;
-   display: flex;
-   justify-content: space-between;
-   height: 90px;
-   width: 90px;
-}
+
 .info {
     text-align: center;
-    color: lightgray;
+    font-size: larger;
+
 }
 
 h2 {
     margin-top: 15px;
+}
+.btn-primary {
+margin: 10px;
+height: 50px;
+background-color: rgba(190, 10, 40, 0.6);
+border: none;
+margin-top: 15px;
+}
+
+.btn-primary:hover {
+    background-color: violet
+}
+.d-grid {
+    margin-top: 40px;
 }
